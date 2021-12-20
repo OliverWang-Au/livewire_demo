@@ -1,0 +1,102 @@
+<%= form_with(model: book) do |form| %>
+  <% if book.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(book.errors.count, "error") %> prohibited this book from being saved:</h2>
+
+      <ul>
+        <% book.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :avatar_ %>
+    <%= form.text_field :avatar_ %>
+  </div>
+
+  <div class="field">
+    <%= form.label :m_fund_ %>
+    <%= form.text_field :m_fund_ %>
+  </div>
+
+  <div class="field">
+    <%= form.label :fund_name_ %>
+    <%= form.text_field :fund_name_ %>
+  </div>
+
+  <div class="field">
+    <%= form.label :shares_ %>
+    <%= form.text_field :shares_ %>
+  </div>
+
+  <div class="field">
+    <%= form.label :mi_ %>
+    <%= form.text_field :mi_ %>
+  </div>
+
+  <div class="field">
+    <%= form.label :mf_ %>
+    <%= form.text_field :mf_ %>
+  </div>
+
+  <div class="field">
+    <%= form.label :gsi_ %>
+    <%= form.text_field :gsi_ %>
+  </div>
+
+  <div class="field">
+    <%= form.label :year_ %>
+    <%= form.text_field :year_ %>
+  </div>
+
+  <div class="field">
+    <%= form.label :month_1_ %>
+    <%= form.text_field :month_1_ %>
+  </div>
+
+  <div class="field">
+    <%= form.label :year_1_ %>
+    <%= form.text_field :year_1_ %>
+  </div>
+
+  <div class="field">
+    <%= form.label :years_3_ %>
+    <%= form.text_field :years_3_ %>
+  </div>
+
+  <div class="field">
+    <%= form.label :years_5_ %>
+    <%= form.text_field :years_5_ %>
+  </div>
+
+  <div class="field">
+    <%= form.label :si_ %>
+    <%= form.text_field :si_ %>
+  </div>
+
+  <div class="field">
+    <%= form.label :mf_2_ %>
+    <%= form.text_field :mf_2_ %>
+  </div>
+
+  <div class="field">
+    <%= form.label :ap_ %>
+    <%= form.text_field :ap_ %>
+  </div>
+
+  <div class="field">
+    <%= form.label :tcr_ %>
+    <%= form.text_field :tcr_ %>
+  </div>
+
+  <div class="field">
+    <%= form.label :da_te_ %>
+    <%= form.text_field :da_te_ %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

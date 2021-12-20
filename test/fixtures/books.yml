@@ -1,0 +1,39 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  avatar_: MyString
+  m_fund_: MyString
+  fund_name_: MyString
+  shares_: MyString
+  mi_: MyString
+  mf_: MyString
+  gsi_: MyString
+  year_: MyString
+  month_1_: MyString
+  year_1_: MyString
+  years_3_: MyString
+  years_5_: MyString
+  si_: MyString
+  mf_2_: MyString
+  ap_: MyString
+  tcr_: MyString
+  da_te_: MyString
+
+two:
+  avatar_: MyString
+  m_fund_: MyString
+  fund_name_: MyString
+  shares_: MyString
+  mi_: MyString
+  mf_: MyString
+  gsi_: MyString
+  year_: MyString
+  month_1_: MyString
+  year_1_: MyString
+  years_3_: MyString
+  years_5_: MyString
+  si_: MyString
+  mf_2_: MyString
+  ap_: MyString
+  tcr_: MyString
+  da_te_: MyString

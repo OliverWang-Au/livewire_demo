@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+    <body>
+        <!--Atricle--> 
+            <div class="container px-4 fund" id="<%=@id%>">
+                <div class="p-5 mb-4 bg-white shadow rounded">
+                    <div class="flow-root">
+                        <div class="flex float-left">
+                            <div class="w-20 h-20 py-4 mx-3 shadow rounded border">
+                                <img class="object-cover pt-3 avatar"
+                                src=<%=avatar%>
+                                alt="">
+                            </div>
+                            <div class="w-100 mr-3">
+                                <div>
+                                    <span class="text-xs text-blue-700 font-medium uppercase bg-blue-100 m_fund"><%= m_fund%></span>
+                                </div>
+                                <p class="text-base text-black font-semibold flex-1 fund_name"><%= fund_name%></p>
+                                <p class="v text-gray-400 font-semibold shares"><%= shares%></p>
+                            </div>
+                        </div>
+                        <!--Summary View-->
+                        <div class="Abox">
+                            <div class="flex pt-5 float-right" >
+                                <div class="ml-20">
+                                    <p class="text-xs text-gray-400 uppercase ">Minimu Investment</p>
+                                    <p class="text-right font-medium mi"><%= mi%></p>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-xs text-gray-400 uppercase">Management Fee</p>
+                                    <p class="text-right font-medium mf"><%= mf%></p>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-xs text-gray-400 uppercase">Growth Since Inception</p>
+                                    <p class="text-right font-medium gsi"><%= gsi%></p>
+                                    <p class="text-right text-xs year"><%= year%></p>
+                                </div>
+                            </div> 
+                        </div>
+                        
+                        <!--Performence View-->
+                        <div class="Abox" style="display:none">
+                            <div class="flex pt-5 float-right">
+                                <div class="ml-20">
+                                    <p class="text-xs text-gray-400 uppercase ">1 Month</p>
+                                    <p class="text-right font-medium month_1"><%= month_1%></p>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-xs text-gray-400 uppercase">1 Year</p>
+                                    <p class="text-right font-medium year_1"><%= year_1%></p>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-xs text-gray-400 uppercase">3 Years</p>
+                                    <p class="text-right font-medium years_3"><%= years_3%></p>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-xs text-gray-400 uppercase">5 Years</p>
+                                    <p class="text-right font-medium years_5"><%= years_5%></p>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-xs text-gray-400 uppercase">Since Inception</p>
+                                    <p class="text-right font-medium si"><%= si%></p>
+                                    <p class="text-right text-xs year"><%=year%></p>  
+                                </div>
+                            </div>
+                        </div>
+                        <!--fee View-->
+                        <div class="Abox" style="display:none">
+                            <div class="flex pt-5 float-right">
+                                <div class="ml-20">
+                                    <p class="text-xs text-gray-400 uppercase ">Management Fees</p>
+                                    <p class="text-right font-medium mf_2"><%= mf_2%></p>
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-xs text-gray-400 uppercase">Actual Performance Fee</p>
+                                    <p class="text-right font-medium ap"><%= ap%></p>
+                                    <p class="text-right text-xs date_"><%= date_%></p> 
+                                </div>
+                                <div class="ml-10">
+                                    <p class="text-xs text-gray-400 uppercase">Total Cost Ratio</p>
+                                    <p class="text-right font-medium tcr"><%= tcr%></p>
+                                    <p class="text-right text-xs date_"><%= date_%></p>
+                                </div>
+                            </div>
+                        </div>               
+                    </div>
+                </div>
+            </div>
+    </body>
+</html>
