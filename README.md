@@ -1,3 +1,3 @@
 # README
 
-A Livewire Market website demo
+A Livewire Markets website demo
